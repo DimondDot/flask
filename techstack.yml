@@ -1,11 +1,12 @@
 repo_name: DimondDot/flask
-report_id: d204e0cdc05bf8e1e7141fb1771488c4
+report_id: 489dcb0cf854a44c62769be39c8d762c
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-08T13:09:48+00:00'
+timestamp: '2024-01-05T15:38:43+00:00'
 requested_by: davidism
 provider: github
 branch: main
-detected_tools_count: 38
+detected_tools_count: 36
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DimondDot/flask
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -38,7 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -51,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DimondDot/flask
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -61,6 +65,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -72,6 +77,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/tutorial/flaskr/schema.sql
   detection_source: examples/tutorial/flaskr/schema.sql
   last_updated_by: David Lord
   last_updated_on: 2018-02-09 22:39:05.000000000 Z
@@ -85,21 +91,10 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-05-02 14:17:52.000000000 Z
-- name: pgvector
-  description: Open-source vector similarity search for Postgres
-  website_url: https://github.com/pgvector/pgvector/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Database Tools
-  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
-  detection_source: examples/celery/pyproject.toml
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -108,6 +103,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DimondDot/flask
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -117,6 +113,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/.github/workflows/lock.yaml
   detection_source: ".github/workflows/lock.yaml"
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:40:39.000000000 Z
@@ -128,6 +125,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -139,6 +137,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -150,6 +149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -162,7 +162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/requirements/dev.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
@@ -176,7 +176,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/requirements/tests.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/tests.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
@@ -188,34 +188,16 @@ tools:
   category: Analytics
   sub_category: Custom Analytics
   image_url: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements-skip/tests-min.txt
   detection_source: requirements-skip/tests-min.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
-- name: HTML
-  description: Hypertext Markup Language for creating web pages.
-  website_url: http://
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
-  detection_source: examples/celery/src/task_app/templates/index.html
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
-  detection_source: examples/celery/pyproject.toml
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
 - name: PyYAML
   website_url: http://pyyaml.org/wiki/PyYAML
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -228,6 +210,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DimondDot/flask
   detection_source: Repo Metadata
 - name: Sphinx
   description: Open source full text search server, designed from the ground up with
@@ -238,6 +221,7 @@ tools:
   category: Application Utilities
   sub_category: Search Engines
   image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
@@ -246,6 +230,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/11076/iwoLyNPI_normal.jpg
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements-skip/tests-min.txt
   detection_source: requirements-skip/tests-min.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
@@ -256,6 +241,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
@@ -266,6 +252,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
@@ -276,6 +263,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
@@ -285,9 +273,24 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 3.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: pgjones
+  last_updated_on: 2023-09-30 14:08:50.000000000 Z
 - name: amqp
   description: Low-level AMQP client for Python
   package_url: https://pypi.org/project/amqp
@@ -298,7 +301,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20296/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -312,7 +315,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -326,7 +329,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20470/default_54107e01f42ee7fb9e6c385c975ec134753aae0a.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -340,7 +343,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/pyproject.toml
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -355,7 +358,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20361/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -368,6 +371,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 17:20:27.000000000 Z
@@ -381,7 +385,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20085/default_36085c16346155862c5c1303e8a0a70416453533.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -395,7 +399,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-05-02 14:17:52.000000000 Z
@@ -409,7 +413,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-05-02 14:17:52.000000000 Z
@@ -423,7 +427,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -437,7 +441,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
@@ -451,7 +455,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
-  detection_source_url: github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
