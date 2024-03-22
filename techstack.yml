@@ -1,12 +1,12 @@
 repo_name: DimondDot/flask
-report_id: 0516c3cbab5bcbde0d54106dd3a91117
+report_id: 4ba71061eed612e77ad5a830afe58a1b
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-29T20:09:35+00:00'
+timestamp: '2024-03-22T08:12:43+00:00'
 requested_by: davidism
 provider: github
 branch: main
-detected_tools_count: 36
+detected_tools_count: 23
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -18,19 +18,6 @@ tools:
   image_url: https://img.stackshare.io/service/6727/css.png
   detection_source_url: https://github.com/DimondDot/flask
   detection_source: Repo Metadata
-- name: JavaScript
-  description: Lightweight, interpreted, object-oriented language with first-class
-    functions
-  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
-  detection_source: requirements/dev.txt
-  last_updated_by: David Lord
-  last_updated_on: 2020-05-23 21:03:11.000000000 Z
 - name: Jinja
   description: Full featured template engine for Python
   website_url: https://palletsprojects.com/p/jinja/
@@ -81,6 +68,17 @@ tools:
   detection_source: examples/tutorial/flaskr/schema.sql
   last_updated_by: David Lord
   last_updated_on: 2018-02-09 22:39:05.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DimondDot/flask
+  detection_source: Repo Metadata
 - name: Redis
   description: Open source (BSD licensed), in-memory data structure store
   website_url: http://redis.io/
@@ -95,6 +93,19 @@ tools:
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-05-02 14:17:52.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-11-09 16:46:01.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -117,18 +128,20 @@ tools:
   detection_source: ".github/workflows/lock.yaml"
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:40:39.000000000 Z
-- name: PyPI
-  description: A repository of software for the Python programming language
-  website_url: https://pypi.org/
-  open_source: false
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
-  sub_category: Hosted Package Repository
-  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
-  detection_source: requirements/dev.txt
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/.github/workflows/publish.yaml
+  detection_source: ".github/workflows/publish.yaml"
   last_updated_by: David Lord
-  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+  last_updated_on: 2023-01-20 21:45:15.000000000 Z
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -137,18 +150,6 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
-  detection_source: requirements/dev.txt
-  last_updated_by: David Lord
-  last_updated_on: 2020-05-23 21:03:11.000000000 Z
-- name: npm
-  description: The package manager for JavaScript.
-  website_url: https://www.npmjs.com/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Front End Package Manager
-  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
   detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
@@ -201,17 +202,19 @@ tools:
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
+- name: Requests
+  description: Elegant and simple HTTP library for Python
+  website_url: http://docs.python-requests.org/en/latest/
+  license: Apache-2.0
+  open_source: true
   hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source_url: https://github.com/DimondDot/flask
-  detection_source: Repo Metadata
+  category: Application Utilities
+  sub_category: Data Transfer
+  image_url: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
+  detection_source_url: https://github.com/DimondDot/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-11-09 16:46:01.000000000 Z
 - name: Sphinx
   description: Open source full text search server, designed from the ground up with
     performance, relevance (aka search quality), and integration simplicity in mind
@@ -277,185 +280,3 @@ tools:
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-11-09 16:46:01.000000000 Z
-- name: Werkzeug
-  description: The comprehensive WSGI web application library
-  package_url: https://pypi.org/project/Werkzeug
-  version: 3.0.0
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/pyproject.toml
-  detection_source: pyproject.toml
-  last_updated_by: pgjones
-  last_updated_on: 2023-09-30 14:08:50.000000000 Z
-- name: amqp
-  description: Low-level AMQP client for Python
-  package_url: https://pypi.org/project/amqp
-  version: 5.1.1
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20296/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: async-timeout
-  description: Timeout context manager for asyncio programs
-  package_url: https://pypi.org/project/async-timeout
-  version: 4.0.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: billiard
-  description: Python multiprocessing fork with improvements and bugfixes
-  package_url: https://pypi.org/project/billiard
-  version: 3.6.4
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20470/default_54107e01f42ee7fb9e6c385c975ec134753aae0a.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: celery
-  description: Distributed Task Queue
-  package_url: https://pypi.org/project/celery
-  version: 5.2.7
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/pyproject.toml
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: click-plugins
-  description: An extension module for click to enable registering CLI commands via
-    setuptools entry-points
-  package_url: https://pypi.org/project/click-plugins
-  version: 1.1.1
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20361/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: importlib-metadata
-  description: Read metadata from Python packages
-  package_url: https://pypi.org/project/importlib-metadata
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/pyproject.toml
-  detection_source: pyproject.toml
-  last_updated_by: David Lord
-  last_updated_on: 2023-11-09 17:20:27.000000000 Z
-- name: kombu
-  description: Messaging library for Python
-  package_url: https://pypi.org/project/kombu
-  version: 5.2.4
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20085/default_36085c16346155862c5c1303e8a0a70416453533.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: prompt-toolkit
-  description: Library for building powerful interactive command lines in Python
-  package_url: https://pypi.org/project/prompt-toolkit
-  version: 3.0.38
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-05-02 14:17:52.000000000 Z
-- name: pytz
-  description: World timezone definitions, modern and historical
-  package_url: https://pypi.org/project/pytz
-  version: '2023.3'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-05-02 14:17:52.000000000 Z
-- name: six
-  description: Python 2 and 3 compatibility utilities
-  package_url: https://pypi.org/project/six
-  version: 1.16.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: vine
-  description: Promises, promises, promises
-  package_url: https://pypi.org/project/vine
-  version: 5.0.0
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
-- name: wcwidth
-  description: Measures number of Terminal column cells of wide-character codes
-  package_url: https://pypi.org/project/wcwidth
-  version: 0.2.6
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
-  detection_source_url: https://github.com/DimondDot/flask/blob/main/examples/celery/requirements.txt
-  detection_source: examples/celery/requirements.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-02-09 18:50:57.000000000 Z
