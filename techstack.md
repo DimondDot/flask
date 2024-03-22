@@ -3,17 +3,19 @@
 ## Tech Stack
 DimondDot/flask is built on the following main stack:
 
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
 - [Python](https://www.python.org) – Languages
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Languages
 - [Redis](http://redis.io/) – In-Memory Databases
+- [Babel](http://babeljs.io/) – JavaScript Compilers
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Istio](https://istio.io/) – Microservices Tools
 - [pre-commit](http://jish.github.io/pre-commit/) – Git Tools
 - [pytest](http://pytest.org/latest/) – Testing Frameworks
 - [Bitdeli](https://bitdeli.com) – Custom Analytics
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Requests](http://docs.python-requests.org/en/latest/) – Data Transfer
 - [Sphinx](http://sphinxsearch.com/) – Search Engines
 
 Full tech stack [here](/techstack.md)
@@ -24,17 +26,19 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 DimondDot/flask is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='pre-commit'/> [pre-commit](http://jish.github.io/pre-commit/) – Git Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png' alt='Bitdeli'/> [Bitdeli](https://bitdeli.com) – Custom Analytics
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'/> [Requests](http://docs.python-requests.org/en/latest/) – Data Transfer
 - <img width='25' height='25' src='https://img.stackshare.io/service/1598/TtqoAo1V.png' alt='Sphinx'/> [Sphinx](http://sphinxsearch.com/) – Search Engines
 
 Full tech stack [here](/techstack.md)
@@ -46,7 +50,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [DimondDot/flask](https://github.com/DimondDot/flask)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|36<br/>Tools used|02/29/24 <br/>Report generated|
+|23<br/>Tools used|03/22/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -56,14 +60,6 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">CSS 3</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
-  <br>
-  <sub><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -100,6 +96,14 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'>
+  <br>
+  <sub><a href="https://en.wikipedia.org/wiki/Shell_script">Shell</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 </tr>
 </table>
 
@@ -119,6 +123,14 @@ Full tech stack [here](/techstack.md)
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (7)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'>
+  <br>
+  <sub><a href="http://babeljs.io/">Babel</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
   <br>
   <sub><a href="http://git-scm.com/">Git</a></sub>
@@ -135,9 +147,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg' alt='PyPI'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
   <br>
-  <sub><a href="https://pypi.org/">PyPI</a></sub>
+  <sub><a href="https://istio.io/">Istio</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -146,14 +158,6 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg' alt='RubyGems'>
   <br>
   <sub><a href="https://rubygems.org/">RubyGems</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png' alt='npm'>
-  <br>
-  <sub><a href="https://www.npmjs.com/">npm</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -201,9 +205,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'>
   <br>
-  <sub><a href="https://en.wikipedia.org/wiki/Shell_script">Shell</a></sub>
+  <sub><a href="http://docs.python-requests.org/en/latest/">Requests</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -258,27 +262,6 @@ Full tech stack [here](/techstack.md)
 
 </tr>
 </table>
-
-
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (13)</h2>
-
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (13)
-
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[Werkzeug](https://pypi.org/project/Werkzeug)|v3.0.0|09/30/23|pgjones |BSD-3-Clause|N/A|
-|[amqp](https://pypi.org/project/amqp)|v5.1.1|02/09/23|David Lord |BSD-3-Clause|N/A|
-|[async-timeout](https://pypi.org/project/async-timeout)|v4.0.2|02/09/23|David Lord |Apache-2.0|N/A|
-|[billiard](https://pypi.org/project/billiard)|v3.6.4|02/09/23|David Lord |BSD-3-Clause|N/A|
-|[celery](https://pypi.org/project/celery)|v5.2.7|02/09/23|David Lord |BSD-3-Clause|N/A|
-|[click-plugins](https://pypi.org/project/click-plugins)|v1.1.1|02/09/23|David Lord |BSD-3-Clause|N/A|
-|[importlib-metadata](https://pypi.org/project/importlib-metadata)|N/A|11/09/23|David Lord |Apache-2.0|N/A|
-|[kombu](https://pypi.org/project/kombu)|v5.2.4|02/09/23|David Lord |BSD-3-Clause|N/A|
-|[prompt-toolkit](https://pypi.org/project/prompt-toolkit)|v3.0.38|05/02/23|David Lord |BSD-3-Clause|N/A|
-|[pytz](https://pypi.org/project/pytz)|v2023.3|05/02/23|David Lord |MIT|N/A|
-|[six](https://pypi.org/project/six)|v1.16.0|02/09/23|David Lord |MIT|N/A|
-|[vine](https://pypi.org/project/vine)|v5.0.0|02/09/23|David Lord |BSD-3-Clause|N/A|
-|[wcwidth](https://pypi.org/project/wcwidth)|v0.2.6|02/09/23|David Lord |MIT|N/A|
 
 <br/>
 <div align='center'>
